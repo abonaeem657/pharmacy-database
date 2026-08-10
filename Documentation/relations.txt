@@ -1,0 +1,13 @@
+Employees --> Drugs                1:N — موظف واحد مسؤول عن أكثر من دواء          responsible for
+
+Suppliers --> Drugs                1:N — مورد واحد يورد أكثر من دواء                      supplies
+
+Drugs     --> Inventory            1:1 — كل دواء له سجل مخزون واحد بس             stored in
+
+Employees --> Family               1:1 — كل موظف له سجل عائلة واحد                  has
+
+Employees --> Management           1:N — مدير واحد يدير أكثر من موظف                   managed by   //Recursive Relationship//
+
+Customers --> Sales                1:N — عميل واحد يقدر يشتري أكثر من مرة          makes 
+
+Drugs     --> Sales                1:N — دواء واحد يقدر يُباع في أكثر من عملية بيع    sold via

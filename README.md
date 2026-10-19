@@ -74,3 +74,7 @@ pharmacy-database/
 2. Execute `SQL-Scripts/2_insert_data.sql` to load sample data.
 3. Run any query from `SQL-Scripts/3_select_queries.sql` to explore the data.
 4. Run `SQL-Scripts/4_update_queries.sql` to see data manipulation examples (wrapped in commit/rollback for safety).
+
+## Verification and visuals
+
+This repository contains Oracle SQL scripts and ER diagrams, not a web application, so there are no application pages to capture. Review the existing [ER diagrams](ER-Diagrams/) for visual documentation. The scripts were inspected locally; running them requires an Oracle database and a suitable schema account, which was unavailable in this workspace. Execute the numbered scripts in order in SQL Developer or SQL*Plus, then inspect the query output from `3_select_queries.sql`.

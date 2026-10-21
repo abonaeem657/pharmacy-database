@@ -1,4 +1,9 @@
+![Pharmacy database cover](ER-Diagrams/cover.svg)
+
 # Pharmacy Database Management System
+
+[ER diagram](#entity-relationship-diagram) | [Schema](#database-schema) | [Run the scripts](#how-to-run)
+
 
 An Oracle SQL database project modeling the operations of a pharmacy: employees, suppliers, drugs, inventory, patients, sales, and management hierarchy.
 

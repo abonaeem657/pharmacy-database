@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="420" viewBox="0 0 1400 420" role="img" aria-labelledby="title desc">
+<title id="title">PHARMACY DATA</title><desc id="desc">A relational model for medicines, people and supply.</desc>
+<defs><linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#102b25"/><stop offset="1" stop-color="#225b4c"/></linearGradient><pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#ffffff" stroke-opacity=".07"/></pattern></defs>
+<rect width="1400" height="420" rx="22" fill="url(#bg)"/><rect width="1400" height="420" rx="22" fill="url(#grid)"/>
+<circle cx="1274" cy="65" r="154" fill="#b3e0b8" opacity=".07"/><path d="M0 374C341 269 606 432 969 326" fill="none" stroke="#b3e0b8" stroke-opacity=".18" stroke-width="3"/>
+<rect x="69" y="64" width="12" height="12" rx="3" fill="#b3e0b8"/><text x="97" y="76" fill="#b3e0b8" font-family="Arial,sans-serif" font-size="16" font-weight="700" letter-spacing="4">CARE, STRUCTURED</text>
+<text x="69" y="174" fill="#ffffff" font-family="Arial,sans-serif" font-size="62" font-weight="800" letter-spacing="-2">PHARMACY DATA</text>
+<rect x="71" y="207" width="86" height="5" rx="3" fill="#b3e0b8"/>
+<text x="71" y="266" fill="#edf5e8" font-family="Arial,sans-serif" font-size="23">A relational model for medicines, people and supply.</text>
+<rect x="69" y="323" width="615" height="52" rx="13" fill="#ffffff" fill-opacity=".09" stroke="#ffffff" stroke-opacity=".14"/>
+<text x="94" y="355" fill="#b3e0b8" font-family="Arial,sans-serif" font-size="17" font-weight="700" letter-spacing="1">ORACLE SQL  /  PL/SQL  /  ER MODELING</text>
+<rect x="985" y="105" width="286" height="235" rx="22" fill="#e6f0e5"/><rect x="1098" y="133" width="60" height="127" rx="9" fill="#2b7966"/><rect x="1065" y="167" width="126" height="59" rx="9" fill="#2b7966"/><circle cx="1227" cy="284" r="40" fill="#a6d5b4"/><path d="M1201 259l52 51" stroke="#2b7966" stroke-width="9"/><rect x="1011" y="290" width="155" height="10" rx="5" fill="#9db9aa"/><rect x="1011" y="309" width="109" height="7" rx="3" fill="#b7cbc0"/>
+</svg>

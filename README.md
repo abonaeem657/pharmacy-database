@@ -15,14 +15,16 @@ This project designs and implements a relational database for a pharmacy, coveri
 
 ## Entity Relationship Diagram
 
-See [`ER-Diagrams/`](./ER-Diagrams) for the full diagrams. Key entities and relationships:
+The newly rendered image below shows the relationships declared in the SQL script. Its [editable Mermaid source](ER-Diagrams/ERD.md) and the original Chen and Crow's Foot PDFs are in [`ER-Diagrams/`](./ER-Diagrams). Key relationships:
+
+![Pharmacy ER diagram](ER-Diagrams/ERD-new.png)
 
 | Relationship | Cardinality | Description |
 |---|---|---|
 | Employees → Drugs | 1:N | An employee is responsible for multiple drugs |
 | Suppliers → Drugs | 1:N | A supplier supplies multiple drugs |
-| Drugs → Inventory | 1:1 | Each drug has one inventory record |
-| Employees → Family | 1:1 | Each employee has one family record |
+| Drugs → Inventory | 1:N in SQL | `Inventory.drug_id` is not unique, so multiple rows are allowed |
+| Employees → Family | 1:N in SQL | `Family.emp_id` is not unique, so multiple rows are allowed |
 | Employees → Management | 1:N | Recursive relationship — a manager oversees multiple employees |
 | Patients → Sales | 1:N | A patient can make multiple purchases |
 | Drugs → Sales | 1:N | A drug can appear in multiple sales |
